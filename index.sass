@@ -27,7 +27,7 @@ $anderesSchwarz:#171717
 
 #image-logo
 	display: flex
-
+	
 	width: 20vw
 	height: 4vw
 	margin-top: 4%
@@ -78,7 +78,7 @@ ul
 
 li
 	display: flex
-	margin-left: 2vw
+	padding-left: 2vw
 	margin-top: -0.5vw
 	
 
@@ -95,8 +95,11 @@ li a:hover
 @media screen and (max-width: 800px)
 	.main-nav
 		display: flex
+		align-items: center
 		justify-content: center
-
+	ul
+		margin-left: -8%
+		
 // **********************MAIN**********************************
 
 
@@ -158,11 +161,11 @@ main
 
 @media screen and (max-width: 800px)
 	.column-uno
-		margin-top: 20%
+		margin-top: -10%
 	.column-due
 		width: 100%
 		display: flex
-		justify-content: space-between
+		
 
 
 // ****************************first article**********************
@@ -207,13 +210,36 @@ main
 #box-fswd-link
 	display: none
 
+#box-bam-link
+	display: none
 
 @media screen and (max-width: 800px)
 	#box-bla-link
 		width: 47%
+		margin-top: 30%
+
+	#box-bla-text
+		font-size: 3vw
+		height: 8vw
+
+
+
 	#box-fswd-link
 		display: flex
+		position: relative
 		width: 47%
+		height: 30vw
+		margin-top: 8%
+
+	#spezial
+		width: 100%
+		margin: 0%
+		position: absolute
+		height: 30vw
+
+	
+
+
 
 //****************************banner 2***************************** 
 #image-banner-2-link
@@ -238,7 +264,9 @@ main
 @media screen and (max-width: 800px)
 	#image-banner-2-link
 		display: none
-
+	.topper-tre
+		height: 4vw
+		margin-bottom: -5vw
 
 
 
@@ -253,6 +281,13 @@ main
 
 #image-banner-3
 	width: 100%
+
+@media screen and ( max-width: 800px)
+	#image-banner-3
+		display: none
+	#image-banner-3-link
+		display: none
+	
 
 // ***********************second column*********************
 
@@ -270,6 +305,14 @@ main
 	width: 87%
 	flex-flow: row wrap
 	
+@media screen and ( max-width: 800px)
+	.column-tre
+		margin-top: 5%
+	.column-cinque
+		width: 99%
+
+
+
 // ******************************* second article++++++++++++++++++++++++++++
 #box-bib-link
 	position: relative
@@ -307,6 +350,15 @@ main
 	text-align: left
 	padding-top: 0.5vw
 
+
+@media screen and (max-width: 800px)
+	#box-bib-link
+		width: 47%
+		margin-top: 30%
+
+
+
+
 // ******************************CF banner 4**********************
 #image-banner-4-link
 	display: flex
@@ -317,6 +369,11 @@ main
 	display: flex
 	width: 100%
 
+@media screen and (max-width: 800px)
+	#image-banner-4-link
+		display: none
+	#image-banner-4
+		display: none
 
 
 .footer
@@ -340,6 +397,8 @@ main
 	margin: 0
 	padding-bottom: 1%
 
+@media screen and ( max-width: 800px)
+	.footer
+		align-items: center
 
-
-
+	

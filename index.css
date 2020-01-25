@@ -59,7 +59,7 @@ ul {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\0000379}}
 li {
   display: flex;
-  margin-left: 2vw;
+  padding-left: 2vw;
   margin-top: -0.5vw; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\0000385}}
@@ -76,8 +76,13 @@ li a:hover {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\0000396}}
   .main-nav {
     display: flex;
-    justify-content: center; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003103}}
+    align-items: center;
+    justify-content: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003100}}
+  ul {
+    margin-left: -8%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003106}}
 main {
   display: flex;
   justify-content: center;
@@ -85,7 +90,7 @@ main {
   flex-direction: column;
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003113}}
 #date {
   display: flex;
   justify-content: flex-end;
@@ -94,7 +99,7 @@ main {
   font-weight: bold;
   color: gray; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003121}}
 .topper-due {
   display: flex;
   justify-content: flex-start;
@@ -102,7 +107,7 @@ main {
   background-color: lightgrey;
   height: 2.5vw; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003128}}
 .topper-font {
   display: flex;
   padding-left: 2vw;
@@ -111,29 +116,29 @@ main {
   color: #4C4C4C; }
 
 @media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003136}}
   #date {
     display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003138}}
   main {
     width: 99%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003140}}
   .topper-due {
     height: 4vw; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003139}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003142}}
   .topper-font {
     font-size: 3vw; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003146}}
 .column-uno {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003152}}
 .column-due {
   display: flex;
   justify-content: space-between;
@@ -143,16 +148,15 @@ main {
   margin-top: 7%; }
 
 @media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003163}}
   .column-uno {
-    margin-top: 20%; }
+    margin-top: -10%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003165}}
   .column-due {
     width: 100%;
-    display: flex;
-    justify-content: space-between; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003170}}
+    display: flex; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003173}}
 #box-bla-link {
   position: relative;
   display: flex;
@@ -161,20 +165,20 @@ main {
   align-items: flex-end;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003182}}
 #box-bla {
   position: absolute;
   display: flex;
   width: 100%;
   z-index: -1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003190}}
 #box-bla-div {
   display: flex;
   position: absolute;
   z-index: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003197}}
 #box-bla-text {
   font-size: 1.5vw;
   height: 5vw;
@@ -187,32 +191,52 @@ main {
   text-align: left;
   padding-top: 0.5vw; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003210}}
 #box-fswd-link {
   display: none; }
 
-@media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003212}}
-  #box-bla-link {
-    width: 47%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003213}}
+#box-bam-link {
+  display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003214}}
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003217}}
+  #box-bla-link {
+    width: 47%;
+    margin-top: 30%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003221}}
+  #box-bla-text {
+    font-size: 3vw;
+    height: 8vw; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003227}}
   #box-fswd-link {
     display: flex;
-    width: 47%; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003219}}
+    position: relative;
+    width: 47%;
+    height: 30vw;
+    margin-top: 8%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003234}}
+  #spezial {
+    width: 100%;
+    margin: 0%;
+    position: absolute;
+    height: 30vw; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003245}}
 #image-banner-2-link {
   display: flex;
   justify-content: center;
   width: 13%;
   height: 39vw; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003251}}
 #image-banner-2 {
   display: flex;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003255}}
 .topper-tre {
   display: flex;
   justify-content: flex-start;
@@ -222,28 +246,41 @@ main {
   margin-top: 3%; }
 
 @media screen and (max-width: 800px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003265}}
   #image-banner-2-link {
-    display: none; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003247}}
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003267}}
+  .topper-tre {
+    height: 4vw;
+    margin-bottom: -5vw; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003275}}
 #image-banner-3-link {
   display: flex;
   width: 90%;
   margin-top: 2vw;
   margin-left: 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003282}}
 #image-banner-3 {
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003260}}
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003286}}
+  #image-banner-3 {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003288}}
+  #image-banner-3-link {
+    display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003295}}
 .column-tre {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 1%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003301}}
 .column-cinque {
   display: flex;
   justify-content: space-between;
@@ -251,7 +288,15 @@ main {
   width: 87%;
   flex-flow: row wrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003274}}
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003309}}
+  .column-tre {
+    margin-top: 5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003311}}
+  .column-cinque {
+    width: 99%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003317}}
 #box-bib-link {
   position: relative;
   display: flex;
@@ -260,20 +305,20 @@ main {
   align-items: flex-end;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003326}}
 #box-bib {
   position: absolute;
   display: flex;
   width: 100%;
   z-index: -1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003334}}
 #box-bib-div {
   display: flex;
   position: absolute;
   z-index: 1; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003298}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003341}}
 #box-bib-text {
   font-size: 2.5vw;
   height: 8vw;
@@ -286,18 +331,31 @@ main {
   text-align: left;
   padding-top: 0.5vw; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003311}}
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003355}}
+  #box-bib-link {
+    width: 47%;
+    margin-top: 30%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003363}}
 #image-banner-4-link {
   display: flex;
   justify-content: center;
   width: 12%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003368}}
 #image-banner-4 {
   display: flex;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003322}}
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003373}}
+  #image-banner-4-link {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003375}}
+  #image-banner-4 {
+    display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003379}}
 .footer {
   display: flex;
   flex-direction: column;
@@ -307,12 +365,12 @@ main {
   background-color: #1A1A1A;
   align-items: flex-end; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003388}}
 #image-logo2 {
   justify-content: center;
   width: 30%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003392}}
 #end {
   text-align: center;
   font-size: 2vw;
@@ -320,5 +378,10 @@ main {
   background-color: #1A1A1A;
   margin: 0;
   padding-bottom: 1%; }
+
+@media screen and (max-width: 800px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/flomo\/OneDrive\/Dokumente\/codefactory\/Code\%20Reveau\/CodeReview2\/index\.sass}line{font-family:\00003401}}
+  .footer {
+    align-items: center; } }
 
 /*# sourceMappingURL=index.css.map */
