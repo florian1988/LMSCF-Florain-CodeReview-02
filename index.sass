@@ -2,6 +2,8 @@ body
 	margin: 0
 	padding: 0
 
+
+
 $Weinrot: #611A1C
 
 $Schwarz: #1A1A1A
@@ -44,17 +46,32 @@ $anderesSchwarz:#171717
 	width: 100%
 
 
+
+
+@media screen and (max-width: 800px)
+	#image-banner-link 
+		display: none 
+	
+	#image-logo
+		margin-left: 10vw
+
+
+
+
+
+
+
 // **********************NAV-BAR****************************
 
 .main-nav
 	display: flex
-	flex-direction: row
 	width: 100%
 	background-color: $Schwarz
 
 
 ul
 	display: flex
+	justify-content: flex-start
 	list-style-type: none
 	flex-direction: row
 	height: 1.5vw
@@ -74,6 +91,11 @@ li a
 li a:hover
 	color: #FCB6A7	
 
+
+@media screen and (max-width: 800px)
+	.main-nav
+		display: flex
+		justify-content: center
 
 // **********************MAIN**********************************
 
@@ -107,7 +129,11 @@ main
 	margin: 0.1vw
 	color: #4C4C4C
 
-
+@media screen and (max-width: 800px)
+	#date
+		display: none
+	main
+		width: 100%
 // first column with 2row s 
 
 .column-uno
@@ -142,7 +168,7 @@ main
 	width: 30%
 	
 #image-eu
-	display:flex
+	display: flex
 	width: 100%
 	
 
@@ -177,6 +203,8 @@ main
 	height: 2.5vw	
 	margin-top: 1%
 	margin-bottom: -2%
+
+
 
 
 // ************************* first column end***************
@@ -248,3 +276,9 @@ main
 	text-align: center
 	font-size: 2vw
 	color: white
+
+
+
+
+
+
