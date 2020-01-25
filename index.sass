@@ -133,8 +133,12 @@ main
 	#date
 		display: none
 	main
-		width: 100%
-// first column with 2row s 
+		width: 99%
+	.topper-due
+		height: 4vw
+	.topper-font
+		font-size: 3vw
+// *********************first column ******************************** 
 
 .column-uno
 	display: flex
@@ -149,48 +153,75 @@ main
 	flex-direction: row
 	width: 86%
 	flex-flow: row wrap
+	margin-top: 7%
 
 
-#image-nasa-link
+@media screen and (max-width: 800px)
+	.column-uno
+		margin-top: 20%
+	.column-due
+		width: 100%
+		display: flex
+		justify-content: space-between
+
+
+// ****************************first article**********************
+
+#box-bla-link
+	position: relative
 	display: flex
+	width: 33%
 	justify-content: center
-	width: 30%
+	align-items: flex-end
+	text-decoration: none
 	
 
-#image-nasa
+#box-bla
+	position: absolute
 	display: flex
 	width: 100%
+	z-index: -1
 	
 
-#image-eu-link
-	display: flex
-	justify-content: center
-	width: 30%
 	
-#image-eu
+#box-bla-div
 	display: flex
+	position: absolute
+	z-index: 1
+	
+	
+
+#box-bla-text
+	font-size: 1.5vw
+	height: 5vw
 	width: 100%
+	z-index: 2
+	color: white
+	background-color: $Schwarz
+	margin: 0
+	padding: 0
+	text-align: left
+	padding-top: 0.5vw
 	
 
-#image-jeff-link
-	display: flex
-	justify-content: center
-	width: 30%
-	
-    
-#image-jeff
-	display: flex
-	width: 100%
-	
+#box-fswd-link
+	display: none
 
 
+@media screen and (max-width: 800px)
+	#box-bla-link
+		width: 47%
+	#box-fswd-link
+		display: flex
+		width: 47%
 
-	
+//****************************banner 2***************************** 
 #image-banner-2-link
 	display: flex
 	justify-content: center
 	width: 13%
-	
+	height: 39vw
+
 #image-banner-2
 	display: flex
 	width: 100%
@@ -201,8 +232,13 @@ main
 	width: 100%
 	background-color: lightgrey
 	height: 2.5vw	
-	margin-top: 1%
-	margin-bottom: -2%
+	margin-top: 3%
+
+
+@media screen and (max-width: 800px)
+	#image-banner-2-link
+		display: none
+
 
 
 
@@ -231,26 +267,51 @@ main
 	display: flex
 	justify-content: space-between
 	flex-direction: row
-	width: 89%
+	width: 87%
 	flex-flow: row wrap
-
-
-#image-iphone-link
+	
+// ******************************* second article++++++++++++++++++++++++++++
+#box-bib-link
+	position: relative
 	display: flex
-	justify-content: center
 	width: 49%
-	margin-top: 2%
-    
-#image-iphone
+	justify-content: center
+	align-items: flex-end
+	text-decoration: none
+	
+
+#box-bib
+	position: absolute
 	display: flex
 	width: 100%
+	z-index: -1
+	
 
+	
+#box-bib-div
+	display: flex
+	position: absolute
+	z-index: 1
+	
+	
 
+#box-bib-text
+	font-size: 2.5vw
+	height: 8vw
+	width: 100%
+	z-index: 2
+	color: white
+	background-color: $Schwarz
+	margin: 0
+	padding: 0
+	text-align: left
+	padding-top: 0.5vw
 
+// ******************************CF banner 4**********************
 #image-banner-4-link
 	display: flex
 	justify-content: center
-	width: 10%
+	width: 12%
 	
 #image-banner-4
 	display: flex
@@ -259,25 +320,25 @@ main
 
 
 .footer
+	display: flex
+	flex-direction: column
 	margin-top: 2%
 	width: 100%
-	height: 20vw
+	height: 16vw
 	background-color: $Schwarz
+	align-items: flex-end
 	
-
 #image-logo2
-	display: flex
-	height: 4vw
-	width: 20vw
-	margin-left: 70%
-
+	justify-content: center
+	width: 30%
+		
 #end 
-	margin-bottom: -5%
 	text-align: center
 	font-size: 2vw
 	color: white
-
-
+	background-color: $Schwarz
+	margin: 0
+	padding-bottom: 1%
 
 
 
